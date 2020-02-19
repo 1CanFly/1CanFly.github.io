@@ -110,7 +110,7 @@
     }
   });
   // Form
-  $("#form").submit(function(e) {
+  $("#contact-form").submit(function(e) {
     var name = $("#name").val(),
       email = $("#email").val(),
       message = $("#message").val();
